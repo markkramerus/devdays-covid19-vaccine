@@ -43,7 +43,7 @@ Id: adverse-event-grade
 Title: "Adverse Event Grade"
 Description: "The grade associated with the severity of an adverse event, using CTCAE criteria. See https://ctep.cancer.gov/protocolDevelopment/electronic_applications/ctc.htm"
 * value[x] only CodeableConcept
-* valueCodeableConcept from AdverseEventGrade_VS
+* valueCodeableConcept from AdverseEventGrade_VS (required)
 
 ValueSet: MedDRA_VS
 Id: meddra-value-set

@@ -4,7 +4,7 @@ Title: "Immunization Adverse Event Example"
 Description: "Anaphylactic reaction to COVID-19 vaccination"
 * subject = Reference(MaryRoe)
 * category = SCT#264519003 // Drug reaction (qualifier value)
-* event = MDR#10002198 "Anaphylatcic reaction"
+* event = MDR#10002198 "Anaphylactic reaction"
 * event.text = "Anaphylaxis self-reported, self-treated by Epi pen."
 * extension[grade].valueCodeableConcept = SCT#6736007 "Moderate (severity modifier) (qualifier value)"
 * seriousness = AES#non-serious "Non-serious"
